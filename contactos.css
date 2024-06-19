@@ -1,0 +1,180 @@
+
+img {
+    width: 50%;
+    margin:2%;
+
+}
+header{
+        background-color: white;}
+    img {
+    
+        width: 100%;
+        margin:3%;
+        padding:2px;
+    
+    }
+    h3{color:rgb(12, 88, 44);
+        text-align: left;
+    padding:2%;
+    font-family:'futurafont';
+    }
+    
+    .barra {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 2px;
+        background-color: #f9a359;
+        border: 3px solid #fa7e12;
+        margin:2%;
+    
+    
+    }
+    
+    .barra a {
+        text-decoration: none;
+        color:white;
+        font-family:'futurafont',sans-serif;
+        font-size: calc(3vw);
+        margin: 20px;
+    
+    }
+    
+    .barra a:hover {
+        color: aliceblue;
+        background-color: #fa7e12;
+    }
+    
+    .barra ul {
+        display: flex;
+        list-style: none;
+    }
+    
+
+body {
+    background-color: white;    
+    font-size: calc(3vw);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+    background-image: url("images/foto4.jpg");
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+  
+
+}
+h2{
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    font-family:'futurafont',sans-serif;
+
+}
+main{
+.formulario{
+    width: 450px;
+    margin: auto;
+    background: rgb(12, 88, 44);
+    opacity: 90%;
+    padding: 10px 20px;
+    box-sizing:border-box;
+}
+ formulario form{
+    margin-top: 10px;
+    border-radius: 7px;
+    font-family:'futurafont',sans-serif;
+    font-size: 20px;
+    color: white;
+
+}
+
+
+input,
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton {
+    background: #31484A;
+    color: #fff;
+    padding: 20px;
+
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+.ubicanos{
+   
+    width: 450px;
+    margin: auto;
+    background: rgb(12, 88, 44);
+    opacity: 70%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    
+}
+.ubicanos h2{
+    
+        color: white;
+        text-align: center;
+        margin: 0;
+        font-size: 20px;
+        font-family:'futurafont',sans-serif;
+
+}
+.ubicanos img{
+
+    width: 50%;
+    align-content: center;
+    aspect-ratio: 16/9;
+           
+}
+}
+.piePagina {
+
+    width: 100%;
+    border: 3px solid white;
+    background-color: #f9a359;
+    text-align: center;
+    font-size: 2vh;
+}
+h4,h5{
+    color: black;
+        text-align: center;
+        margin: 0;
+        font-size: 100%;
+        font-family:'futurafont',sans-serif
+}
+@font-face{font-family:'futurafont';
+    src:url('Fuentes/futuram.ttf');
+    font-weight:normal;
+    font-style:normal;}
+@media(max-width: 480px) {
+    form {
+        width: 100%;
+    }
+}
+@media(max-width: 480px) {
+    iframe {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    margin: 2%;
+
+}
+
+.barra {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2px;
+    background-color: #f9a359;
+    border: 3px solid #fa7e12;
+    margin: 2%;
+
+
+}
+
+.barra a {
+    text-decoration: none;
+    color: white;
+    font-family: 'futurafont', sans-serif;
+    font-size: calc(3vw);
+    margin: 20px;
+
+}
+
+.barra a:hover {
+    color: aliceblue;
+    background-color: #fa7e12;
+}
+
+.barra ul {
+    display: flex;
+    list-style: none;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    background-color: white;
+}
+
+main {
+    background-color: white;
+}
+
+.contDescripcion {
+    background-color: rgb(237, 194, 136);
+    margin: 2%;
+    border-style: outset;
+    border-color: rgb(50, 164, 87) rgb(50, 164, 87) rgb(50, 164, 87) rgb(50, 164, 87);
+    border-width: 15px 20px 15px;
+    padding: 20px 30px 40px 15px;
+
+}
+
+.contDescripcion p {
+    color: rgb(12, 88, 44);
+    font-family: 'futurafont', sans-serif;
+    ;
+    text-align: justify;
+
+}
+
+.contDescripcion h1 {
+    color: rgb(14, 75, 33);
+    font-family: 'futurafont', sans-serif;
+
+}
+
+.contDescripcion ul {
+    color: rgb(12, 88, 44);
+    font-family: 'futurafont', sans-serif;
+    text-align: left;
+    padding: 5px;
+}
+
+@font-face {
+    font-family: 'futurafont';
+    src: url('Fuentes/futuram.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.piePagina {
+
+    width: 100%;
+    border: 3px solid white;
+    background-color: #f9a359;
+    text-align: center;
+    font-size: 2vh;
+}

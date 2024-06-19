@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: white;}
+img {
+
+    width: 100%;
+    margin:3%;
+    padding:2px;
+
+}
+h3{color:rgb(12, 88, 44);
+    text-align: left;
+padding:2%;
+font-family:'futurafont';
+}
+
+.barra {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2px;
+    background-color: #f9a359;
+    border: 3px solid #fa7e12;
+    margin:2%;
+
+
+}
+
+.barra a {
+    text-decoration: none;
+    color:white;
+    font-family:'futurafont',sans-serif;
+    font-size: calc(3vw);
+    margin: 20px;
+
+}
+
+.barra a:hover {
+    color: aliceblue;
+    background-color: #fa7e12;
+}
+
+.barra ul {
+    display: flex;
+    list-style: none;
+}
+
+body {
+    background-color: #faede2;
+    font-size: calc(3vw);
+    font-family:'futurafont',sans-serif;
+    margin: 5px;
+    padding: auto;
+}
+
+
+
+body{
+    background-color: white;    
+    }
+    header{
+    background-color: white;}
+    main{
+     background-color: white;   
+    }
+
+ .contVideo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 20px auto;
+    }
+
+.slider {
+    img{
+        width: 100%;
+        margin: 0;
+        overflow:hidden;
+      }
+   
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 500%;
+    animation:cambio 2s infinite alternate linear;
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider img {
+    width: 100%;
+    height: 250px;
+    
+}
+@font-face{font-family:'futurafont';
+src:url('Fuentes/futuram.ttf');
+font-weight:normal;
+font-style:normal;}
+
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100;
+    }
+
+    45% {
+        margin-left: -100;
+    }
+
+    50% {
+        margin-left: -200;
+    }
+
+    70% {
+        margin-left: -200;
+    }
+
+    75% {
+        margin-left: -200;
+    }
+
+    100% {
+        margin-left: -200;
+    }
+
+}
+@media(min-width:768px) {
+    .slider img {
+        height: 450px;
+    }
+}
+@media only screen and (max-width:600px) {
+    body {
+        background-color: rgb(242, 243, 243);
+        
+    }
+
+    header{height: 200px;}
+}
+
+@media only screen and(orentation:landscape){
+    body{
+        background-color:rgb(230,204,173);
+    }
+}
+img piePagina{
+    width:10%;
+    margin: 2%;
+   
+}
+.piePagina {
+
+    grid-area: pie;
+    border: 3px solid white;
+    background-color: #f9a359;
+    text-align: center;
+    font-size: 2vh;
+}
