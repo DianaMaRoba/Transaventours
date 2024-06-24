@@ -1,0 +1,207 @@
+
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fuente personalizada */
+@font-face {
+    font-family: 'futurafont';
+    src: url('Fuentes/futuram.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Estilos para todas las imágenes */
+img {
+    width: 90%;
+    margin: 2%;
+}
+
+/* Estilos para la barra de navegación */
+.barra {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2px;
+    background-color: #f9a359;
+    border: 3px solid #fa7e12;
+    margin: 2%;
+}
+
+.barra a {
+    text-decoration: none;
+    color: white;
+    font-family: 'futurafont', sans-serif;
+    font-size: calc(3vw);
+    margin: 20px;
+}
+
+.barra a:hover {
+    color: aliceblue;
+    background-color: #fa7e12;
+}
+
+.barra ul {
+    display: flex;
+    list-style: none;
+}
+
+/* Estilos para el cuerpo del documento */
+body {
+    background-color: white;
+}
+
+/* Estilos para el encabezado */
+.encabezado {
+    background-color: white;
+}
+
+/* Estilos para el pie de página */
+.piePagina {
+    width: 100%;
+    border: 3px solid white;
+    background-color: #f9a359;
+    text-align: center;
+    font-size: 2vh;
+}
+
+/* Estilos para la sección de descripción */
+.contDescripcion {
+    background-color: rgb(237, 194, 136);
+    margin: 2%;
+    padding: 20px 30px 40px 15px;
+    border: 15px outset rgb(50, 164, 87); 
+}
+
+.contDescripcion p, .contDescripcion ul {
+    color: rgb(12, 88, 44);
+    font-family: 'futurafont', sans-serif;
+}
+
+.contDescripcion h1 {
+    color: rgb(14, 75, 33);
+    font-family: 'futurafont', sans-serif;
+    margin-bottom: 10px; 
+}
+
+.contDescripcion ul {
+    text-align: left;
+    padding: 5px;
+}
+
+
+
+
+/* CONTENEDOR DE IMAGENES EN COLUMNA */
+.contenedor {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    height: vh; 
+    margin-bottom: 30px; 
+}
+
+
+/* Estilos de .caja, .caja img, .caja p y .caja:hover se mantienen iguales */
+/* contenedor.css */
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 5%;
+    margin-left: 5%; 
+    margin-right: 5%; 
+}
+
+.seccion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+.seccion:nth-child(1) {
+    flex-direction: row; 
+}
+
+.caja {
+    width: 300px;
+    height: 400px; 
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    transition: box-shadow 0.3s ease; 
+}
+
+.caja.pequeña {
+    width: 500px; 
+    height: 200px; 
+    margin: 1%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    transition: box-shadow 0.3s ease; 
+}
+
+.caja img {
+    width: 110%; 
+    height: 110%; 
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+.caja:nth-child(odd) {
+    background-image: url('IMAGENES/foto1.jpg');
+}
+
+.caja:nth-child(even) {
+    background-image: url('IMAGENES/foto2.jpg');
+}
+
+.caja:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); 
+}
+
+.Titulo {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 10px 0;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.franja-naranja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    background-color: #f9a359;
+    border: 3px solid #fa7e12;
+    margin: 2%;
+}
+
+.franja-naranja h1 {
+    font-size: 1.5em;
+    margin: 0; 
+    text-align: center; 
+    color: white;
+}
