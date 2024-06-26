@@ -1,42 +1,118 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-*/**@font-face{font-family:'futurafont';*/
-body{
+
+.encabezado img {
+    width: 100%;
+    margin: 2%;
+
+}
+
+.encabezado h3 {
+    color: rgb(12, 88, 44);
+    text-align: left;
+    padding: 2%;
+    font-family: 'futurafont';
+}
+
+.encabezado h4 {
+    color: rgb(12, 88, 44);
+    text-align: left;
+    padding: 2%;
+    font-family: 'futurafont';
+}
+
+*
+
+/**@font-face{font-family:'futurafont';*/
+.barra {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2px;
+    background-color: #f9a359;
+    border: 3px solid #fa7e12;
+    margin: 2%;
+
+
+}
+
+.barra a {
+    text-decoration: none;
+    color: white;
+    font-family: 'futurafont', sans-serif;
+    font-size: calc(3vw);
+    margin: 20px;
+
+}
+
+.barra a:hover {
+    color: aliceblue;
+    background-color: #fa7e12;
+}
+
+.barra ul {
+    display: flex;
+    list-style: none;
+}
+
+body {
     background-color: #7a6e6e;
     font-size: 60px;
 }
-.contenedor{
+
+.nombreTour h2 {
+    color: rgb(12, 88, 44);
+    text-align: left;
+    padding: 2%;
+    font-family: 'futurafont';
+}
+
+.nombreTour h4 {
+    color: rgb(12, 88, 44);
+    text-align: left;
+    padding: 2%;
+    font-family: 'futurafont';
+}
+
+
+.contenedor {
     display: grid;
     grid-template-areas: 'zona1 zona2 zona3';
     padding: 10px;
     gap: 10px;
     border: 3px solid black;
-    background-color:rgb(197, 130, 30) ;
+    background-color: rgb(197, 130, 30);
 }
-.contenedor div{
+
+.contenedor div {
     color: white;
     border: 2px solid green;
 }
-#caja1{
+
+#caja1 {
     grid-area: zona1;
 }
-#caja2{
+
+#caja2 {
     grid-area: zona2;
 }
-#caja3{
+
+#caja3 {
     grid-area: zona3;
 }
-.contenedor img{
+
+.contenedor img {
     width: 90%;
     aspect-ratio: 16/9;
 }
-header{
+
+header {
     width: 100%;
     height: 30vh;
-    background-image: url(Imagenes/transaventoursafiche.png);
+    background-image: url(Images/logosinfondo.png);
     background-repeat: none;
     background-size: 100% 100%;
     border: 5px solid black;
@@ -48,41 +124,56 @@ header{
 }
 
 @media only screen and (max-width: 600px) {
-    body{
+    body {
         background-color: #f17575;
         font-size: 60px;
     }
-    img{
-        display:none;
+
+    img {
+        display: none;
     }
-    .contenedor{
+
+    .contenedor {
         grid-template-areas: "zona1" "zona2" "zona3";
-    
-    } 
+
+    }
 }
+
 @media only screen and (min-width: 601px) {
-    body{
-        background-color: #1f358c;
+    body {
+        background-color: white;
         font-size: 40px;
     }
-    .contenedor{
+
+    .contenedor {
         grid-template-areas: "zona1 zona2" "zona3 zona3";
-    
-    }  
+
+    }
 }
+
 @media only screen and (min-width: 820px) {
-    body{
+    body {
         background-color: #4cbe22;
         font-size: 20px;
     }
-    .contenedor{
+
+    .contenedor {
         grid-template-areas: "zona1 zona2 zona3";
-    
-    }   
+
+    }
 }
+
 @media only screen and (orientation: landscape) {
     body {
-      background-color: lightblue;
+        background-color: rgb(196, 193, 187);
     }
-  }
- 
+}
+
+.piePagina {
+
+    width: 100%;
+    border: 3px solid white;
+    background-color: #f9a359;
+    text-align: center;
+    font-size: 2vh;
+}
