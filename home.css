@@ -167,7 +167,6 @@ img piePagina{
    
 }
 .piePagina {
-
     grid-area: pie;
     border: 3px solid white;
     background-color: #f9a359;

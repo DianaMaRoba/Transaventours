@@ -66,13 +66,13 @@ main {
     grid-area: zona1;
 }
 #caja2{
-    grid-area: zona1;
+    grid-area: zona2;
 }
 #caja3{
-    grid-area: zona1;
+    grid-area: zona3;
 }
 #caja4{
-    grid-area: zona1;
+    grid-area: zona4;
 }
 #empresarial{
     background-color:rgb(247, 194, 115);
@@ -85,7 +85,7 @@ main {
     background-color:rgb(250, 235, 97) ;
 }
 #turismo:hover{
-    background-color:rgb(191, 248, 200) ;
+    background-color:rgb(41, 145, 56) ;
 }
 #aeropuerto{
     background-color:rgb(255, 252, 221);
@@ -157,14 +157,14 @@ main {
 
 @media only screen and (max-width:600px) {
     body {
-        background-color: lightskyblue;
+        background-color: rgb(13, 110, 26);
         
     }
 
    
-    .contenedor {
+    .contenedorServicios {
         display: grid;
-        grid-template-areas: "zona1" "zona2" "zona3""zona4";
+        grid-template-areas: "zona1" "zona2" "zona3" "zona4";
 
     }
     header{height: 200px;}
@@ -172,11 +172,11 @@ main {
 
 @media only screen and (min-width:400px) {
     body {
-        background-color: lightskyblue;
+        background-color: rgb(12, 105, 28);
         
     }
 
-    .contenedor {
+    .contenedorServicios {
         display: grid;
         grid-template-areas: "zona1 zona2" "zona3 zona4";
 
@@ -190,7 +190,7 @@ main {
         
     }
 
-    .contenedor {
+    .contenedorServicios {
         display: grid;
         grid-template-areas: "zona1 zona2 zona3 zona4";
 
