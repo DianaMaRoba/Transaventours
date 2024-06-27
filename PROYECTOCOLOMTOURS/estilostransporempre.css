@@ -1,0 +1,13 @@
+body{
+    background-image:url(IMAGTRANSEMPRE/TRANSPOREMPRE1.jpg);
+    margin: 10%;
+}
+h1{
+    color: beige;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+img{
+    font-variant-position: super;
+}
