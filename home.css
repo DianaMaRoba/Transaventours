@@ -18,6 +18,10 @@ h3{color:rgb(12, 88, 44);
 padding:2%;
 font-family:'futurafont';
 }
+h5{
+    padding:2%;
+font-family:'futurafont';
+}
 
 .barra {
     display: flex;
@@ -101,6 +105,8 @@ body{
 .slider img {
     width: 100%;
     height: 250px;
+    align-content: center;
+    scrollbar-width:none;
     
 }
 @font-face{font-family:'futurafont';
