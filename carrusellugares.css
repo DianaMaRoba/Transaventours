@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: lato;
+	
 }
 
 h2 {
@@ -21,8 +22,9 @@ h2 {
 	display: flex;
 	padding: 0;
 	width: 400%;
-	
 	animation: slide 15s infinite alternate ease-in-out;
+	overflow: hidden;
+	
 }
 
 .slider-frame li {
@@ -32,9 +34,10 @@ h2 {
 
 .slider-frame img {
 	width: 100%;
+	
 }
 
-@keyframes slide {
+@keyframes slider {
 	0% {margin-left: 0;}
 	20% {margin-left: 0;}
 	

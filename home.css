@@ -27,8 +27,6 @@ font-family:'futurafont';
     background-color: #f9a359;
     border: 3px solid #fa7e12;
     margin:2%;
-
-
 }
 
 .barra a {
@@ -37,7 +35,6 @@ font-family:'futurafont';
     font-family:'futurafont',sans-serif;
     font-size: calc(3vw);
     margin: 20px;
-
 }
 
 .barra a:hover {
@@ -51,37 +48,32 @@ font-family:'futurafont';
 }
 
 body {
-    background-color: #faede2;
+    background-color: white;
     font-size: calc(3vw);
     font-family:'futurafont',sans-serif;
-    margin: 5px;
-    padding: auto;
+    margin: 20px auto auto;
+    padding: 20px;
+    text-align: center;
+    
+   
 }
-
-
-
-body{
-    background-color: white;    
-    }
-    header{
-    background-color: white;}
-    main{
-     background-color: white;   
-    }
 
  .contVideo {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        margin: 20px auto;
+        margin: 20px auto auto;
+        size: ratio 16x9;
+        
+        
     }
 
 .slider {
     img{
         width: 100%;
         margin: 0;
-        overflow:hidden;
+      
       }
    
 }
@@ -89,18 +81,25 @@ body{
 .slider ul {
     display: flex;
     padding: 0;
-    width: 500%;
+    width: 100%;
     animation:cambio 2s infinite alternate linear;
+    overflow-x:hidden;
+    overflow-y: hidden;
+    align-content: center;
 }
 
 .slider li {
     width: 100%;
     list-style: none;
+    overflow-y: hidden;
+    align-content: center;
 }
 
 .slider img {
     width: 100%;
     height: 250px;
+       overflow-y: hidden;
+    align-content: center;
     
 }
 @font-face{font-family:'futurafont';

@@ -21,8 +21,8 @@ h2 {
 	display: flex;
 	padding: 0;
 	width: 400%;
-	
 	animation: slide 15s infinite alternate ease-in-out;
+	align-content: center;
 }
 
 .slider-frame li {
