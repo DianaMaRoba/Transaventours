@@ -1,4 +1,3 @@
-
 /* Estilos generales */
 * {
     margin: 0;
@@ -6,19 +5,21 @@
     box-sizing: border-box;
 }
 
+
 /* Fuente personalizada */
-@font-face {
-    font-family: 'futurafont';
-    src: url('Fuentes/futuram.ttf');
-    font-weight: normal;
-    font-style: normal;
-}
+
+.encabezado h3{color:rgb(12, 88, 44);
+    text-align: left;
+    padding:2%;
+    font-family:'futurafont';
+    }
 
 /* Estilos para todas las imágenes */
 img {
-    width: 90%;
+    width: 100%;
     margin: 2%;
 }
+
 
 /* Estilos para la barra de navegación */
 .barra {
@@ -69,29 +70,6 @@ body {
 }
 
 /* Estilos para la sección de descripción */
-.contDescripcion {
-    background-color: rgb(237, 194, 136);
-    margin: 2%;
-    padding: 20px 30px 40px 15px;
-    border: 15px outset rgb(50, 164, 87); 
-}
-
-.contDescripcion p, .contDescripcion ul {
-    color: rgb(12, 88, 44);
-    font-family: 'futurafont', sans-serif;
-}
-
-.contDescripcion h1 {
-    color: rgb(14, 75, 33);
-    font-family: 'futurafont', sans-serif;
-    margin-bottom: 10px; 
-}
-
-.contDescripcion ul {
-    text-align: left;
-    padding: 5px;
-}
-
 
 
 
@@ -115,13 +93,14 @@ body {
     margin-bottom: 5%;
     margin-left: 5%; 
     margin-right: 5%; 
+    color: #fa7e12;
 }
 
 .seccion {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20px; 
+    margin-bottom: 10px; 
 }
 
 .seccion:nth-child(1) {
@@ -156,19 +135,19 @@ body {
     transition: box-shadow 0.3s ease; 
 }
 
-.caja img {
-    width: 110%; 
-    height: 110%; 
+.caja.pequeña img {
+    width: 100%; 
+    height: 100%; 
     object-fit: contain;
-    border-radius: 15px;
+    border-radius: 10px; 
 }
 
-.caja:nth-child(odd) {
-    background-image: url('IMAGENES/foto1.jpg');
-}
 
-.caja:nth-child(even) {
-    background-image: url('IMAGENES/foto2.jpg');
+.caja img {
+    width: 150%; 
+    height: 100%; 
+    object-fit: contain;
+    border-radius: 10px;
 }
 
 .caja:hover {
@@ -189,13 +168,17 @@ body {
     border-radius: 10px;
 }
 
+
+
+/*-----FRANJAS VERDE***/
+
 .franja-naranja {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2px;
-    background-color: #f9a359;
-    border: 3px solid #fa7e12;
+    background-color:rgb(50, 164, 87) ;
+    border: 3px solid rgb(12, 88, 44) ;
     margin: 2%;
 }
 
@@ -204,4 +187,33 @@ body {
     margin: 0; 
     text-align: center; 
     color: white;
+    font-family: 'futurafont', sans-serif;
+
 }
+/*------------------------------------------*/
+
+
+
+/**-----FRANJA VERDE NARANJA*/
+.franja-naranja2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    background-color: #f9a359;
+    border: 3px solid #fa7e12;
+    margin: 2%;
+}
+/*----------------------------*/
+
+
+/**-----FRANJA 2 TEXTO NARANJA*/
+
+.franja-naranja2 h1 {
+    font-size: 1.5em;
+    margin: 0; 
+    text-align: center; 
+    color: white;
+    font-family: 'futurafont', sans-serif;
+}
+/**-----*----------------*/
