@@ -66,38 +66,38 @@ main {
     grid-area: zona1;
 }
 #caja2{
-    grid-area: zona1;
+    grid-area: zona2;
 }
 #caja3{
-    grid-area: zona1;
+    grid-area: zona3;
 }
 #caja4{
-    grid-area: zona1;
+    grid-area: zona4;
 }
 #empresarial{
     background-color:rgb(247, 194, 115);
 }
 #empresarial:hover{
-    background-color:rgb(255, 252, 221);
+    background-color:rgb(191, 248, 200);
 }
 
 #turismo{
-    background-color:rgb(250, 235, 97) ;
-}
-#turismo:hover{
     background-color:rgb(191, 248, 200) ;
 }
+#turismo:hover{
+    background-color:rgb(247, 194, 115) ;
+}
 #aeropuerto{
-    background-color:rgb(255, 252, 221);
+    background-color:rgb(247, 194, 115);
 }
 #aeropuerto:hover{
-        background-color:rgb(247, 194, 115);
+    background-color:rgb(191, 248, 200);
 }
 #grupal{
     background-color:rgb(191, 248, 200) ;
 }
 #grupal:hover{
-    background-color:rgb(250, 235, 97) ;
+    background-color:rgb(247, 194, 115) ;
 }
 .contServicios {
     
@@ -106,7 +106,7 @@ main {
         padding: 10px;
         gap: 10px;
  
-        background-color: rgb(226, 250, 242);
+        background-color: rgb(245, 250, 226);
 
    
     margin: 0;
@@ -157,14 +157,14 @@ main {
 
 @media only screen and (max-width:600px) {
     body {
-        background-color: lightskyblue;
+        background-color: rgb(13, 110, 26);
         
     }
 
    
-    .contenedor {
+    .contenedorServicios {
         display: grid;
-        grid-template-areas: "zona1" "zona2" "zona3""zona4";
+        grid-template-areas: "zona1" "zona2" "zona3" "zona4";
 
     }
     header{height: 200px;}
@@ -172,11 +172,11 @@ main {
 
 @media only screen and (min-width:400px) {
     body {
-        background-color: lightskyblue;
+        background-color: rgb(12, 105, 28);
         
     }
 
-    .contenedor {
+    .contenedorServicios {
         display: grid;
         grid-template-areas: "zona1 zona2" "zona3 zona4";
 
@@ -190,7 +190,7 @@ main {
         
     }
 
-    .contenedor {
+    .contenedorServicios {
         display: grid;
         grid-template-areas: "zona1 zona2 zona3 zona4";
 
