@@ -1,0 +1,25 @@
+.btn-wsp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-wsp .icono {
+    width: 30px;
+    height: 30px;
+}
+
+.btn-wsp:hover {
+    background-color: #5df093;
+    text-decoration: none;
+}

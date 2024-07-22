@@ -1,23 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 img {
     width: 50%;
     margin:2%;
 
 }
+
+        
 header{
-        background-color: white;}
-    img {
-    
-        width: 100%;
-        margin:3%;
-        padding:2px;
-    
-    }
-    h3{color:rgb(12, 88, 44);
-        text-align: left;
-    padding:2%;
+    background-color: white;}
+img {
+
+    width: 80%;
+    margin:3%;
+    padding:2px;
+   }
+h3{
+    color:rgb(12, 88, 44);
+    text-align: left;padding: 2%;%;
     font-family:'futurafont';
-    }
+}
     
     .barra {
         display: flex;
@@ -56,8 +62,6 @@ body {
     font-size: calc(3vw);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    
-    background-image: url("images/foto4.jpg");
-    background-size: 100vw 100vh;
     background-attachment: fixed;
     margin: 0;
   
@@ -72,6 +76,8 @@ h2{
 
 }
 main{
+    background-image: url("images/foto4.jpg");
+    background-size: 100vw 100vh;
 .formulario{
     width: 450px;
     margin: auto;
